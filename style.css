@@ -1,6 +1,146 @@
 body {
-    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 40, 75);
+    margin-left: 20px;
+}
+
+.first{
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+    transition: color, 0.15s;
+}
+.first:hover{
+    color: rgb(0, 225, 255);
+}
+
+.second{
+    background-color: rgb(27, 40, 75);
+    color: rgb(0, 225, 255);
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.third{
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+    transition: color, 0.15s;
+}
+.third:hover{
+    color: rgb(0, 225, 255);
+}
+
+.forth{
+    float:right;
+    margin-right: 30px;
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(0, 225, 255);
+    border-radius: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    transition: background-color, opacity 0.15s;
+}
+.forth:hover{
+    background-color: rgb(0, 225, 255);
+    color: black;
+}
+.forth:active{
+    opacity: 0.5;
+}
+
+.fifth{
+    float:right;
+    margin-right: 20px;
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(0, 225, 255);
+    border-radius: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    transition: background-color, opacity 0.15s;
+}
+.fifth:hover{
+    background-color: rgb(0, 225, 255);
+    color: black;
+}
+.fifth:active{
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 225, 255);
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+
+.text{
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.prvi-paragraf{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sixth{
+    display: block;
+    margin: 0 auto;
+
+    background-color: rgb(27, 40, 75);
+    color: rgb(0, 225, 255);
+    border: 1px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: rgb(0, 225, 255);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    transition: background-color, opacity 0.15s;
+}
+.sixth:hover{
+    background-color: rgb(0, 225, 255);
+    color: black;
+}
+.sixth:active{
+    opacity: 0.5;
 }
 
 /*malo sam uredio da se istaknu neke stvari pa ti mijenjaj kako tebi odgovara*/
