@@ -13,7 +13,7 @@ body {
     color: rgb(158, 156, 156);
     border: none;
     font-family: 'Bruno Ace SC', cursive;
-    font-size: 18px;
+    font-size: 25px;
     margin-right: 40px;
     transition: color, opacity 0.15s;
 }
@@ -21,11 +21,39 @@ body {
     color: white;
 }
 .firma:active{
-    opacity: 0.4;
+    background-color: rgb(27, 40, 75);
+    color: rgb(13, 102, 43);
+}
+
+.koddugme{
+    display: flex;
+    justify-content: flex-end;
+}
+.dugme{
+    color: rgb(158, 156, 156);
+    background-color: rgb(27, 40, 75);
+    border-style:solid ;
+    font-size: 20px;
+    border-radius: 18px;
+    border-color: rgb(158, 156, 156);
+    padding: 5px 17px 5px 17px;
+    align-items: right;
+    margin-right: 30px;
+    transition: background-color, opacity 0.15s;
+}
+.dugme:hover{
+    color: rgb(13, 102, 43); 
+    border-color: rgb(13, 102, 43);  
+    background-color: rgb(27, 40, 75); 
+}
+.dugme:active{
+    background-color: rgb(13, 102, 43);
+    color: rgb(27, 40, 75);
 }
 
 .buttons{
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .first{
     background-color: rgb(27, 40, 75);
@@ -262,6 +290,10 @@ hr{
 }
 .instagram:hover{
     color: rgb(0, 225, 255);
+}
+.instagram:active{
+    background-color: rgb(27, 40, 75);
+    color: rgb(13, 102, 43);
 }
 
 .instagramodjava{
