@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(27, 40, 75);
     margin-left: 20px;
+    margin-bottom: 80px;
 }
 
 .firma{
@@ -130,6 +131,7 @@ h1 {
 
 .prvi-paragraf{
     margin-left: 30px;
+    margin-bottom: 60px;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -138,7 +140,6 @@ h1 {
 .sixth{
     display: block;
     margin: 0 auto;
-
     background-color: rgb(27, 40, 75);
     color: rgb(0, 225, 255);
     border: 1px;
@@ -149,10 +150,10 @@ h1 {
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
-    margin-top: 25px;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     transition: background-color, opacity 0.15s;
+    margin-bottom: 60px;
 }
 .sixth:hover{
     background-color: rgb(0, 225, 255);
@@ -174,7 +175,7 @@ p{
 
 ol{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 18px;
     line-height: 25px;
 
@@ -198,3 +199,68 @@ ol{
     text-shadow: 0px 0px 2px #0000FF;
     margin-inline: 4px;
 }
+
+.kraj{
+    margin-top: 70px;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.Copyright{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.Copyrightdva{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.footer{
+    display: inline-block;
+}
+
+.ending{
+    margin-top: 0px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.button-container{
+    text-align: right;
+}
+
+.ende{
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    transition: color, 0.15s; 
+    padding-right: 20px;
+}
+.ende:hover{
+    color: rgb(0, 225, 255);
+}
+
+.instagram{
+    background-color: rgb(27, 40, 75);
+    color: white;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    transition: color, 0.15s; 
+}
+.instagram:hover{
+    color: rgb(0, 225, 255);
+}
+
+.instagramodjava{
+    font-size: 15px;
+}
+
